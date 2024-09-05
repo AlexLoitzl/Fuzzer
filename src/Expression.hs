@@ -7,7 +7,7 @@ module Expression
   , genExprList
   ) where
 
-import Data.Bits as Bit
+import Data.Bits as Bit hiding (And, Xor)
 import Data.ByteString.Builder
 import Data.Word
 import Numeric
